@@ -1,5 +1,6 @@
 package ProxyDesignPattern.BankExample;
 
+// Proxy: Controls access to the RealSubject based on user role
 public class ProxyBankAccount implements BankAccount{
     private RealBankAccount realAccount;
     private String userRole;
@@ -22,6 +23,12 @@ public class ProxyBankAccount implements BankAccount{
             realAccount = new RealBankAccount();
         }
         realAccount.deposit(amount);
+
+        /*I have added hashcode below, to check if same instance is formed, while calling
+        these funtions, i.e deposit, withdraw and getBalance from client side
+        */
+
+//        System.out.println("Instance no in case of Deposit :" + realAccount.hashCode());
     }
 
     @Override
@@ -31,6 +38,7 @@ public class ProxyBankAccount implements BankAccount{
             realAccount = new RealBankAccount();
         }
         realAccount.withdraw(amount);
+//        System.out.println("Instance no in case of Deposit :" + realAccount.hashCode());
     }
 
     @Override
@@ -39,6 +47,7 @@ public class ProxyBankAccount implements BankAccount{
         if (realAccount == null) {
             realAccount = new RealBankAccount();
         }
+//        System.out.println("Instance no in case of Deposit :" + realAccount.hashCode());
         return realAccount.getBalance();
     }
 }
