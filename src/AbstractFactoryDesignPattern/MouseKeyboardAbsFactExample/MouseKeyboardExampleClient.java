@@ -1,6 +1,6 @@
 package AbstractFactoryDesignPattern.MouseKeyboardAbsFactExample;
 
-public class Client {
+public class MouseKeyboardExampleClient {
 
     public static void main(String[] args) {
         String companyName="Apple";

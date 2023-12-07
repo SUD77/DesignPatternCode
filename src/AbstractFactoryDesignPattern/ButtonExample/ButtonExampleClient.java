@@ -1,6 +1,6 @@
 package AbstractFactoryDesignPattern.ButtonExample;
 
-public class Client {
+public class ButtonExampleClient {
 
     public static void main(String[] args) {
 
