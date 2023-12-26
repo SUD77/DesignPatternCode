@@ -4,26 +4,28 @@ public class Director {
 
     public void buildHonda(CarBuilder builder){
 
-        builder.id(1)
-                .brand("Hyndai")
-                .model("Honda")
-                .engine("X")
-                .fuel("Petrol")
-                .color("Red")
-                .noOfDoors(4)
-                .airbags(true)
+        builder.setId(1)
+                .setBrand("Hyndai")
+                .setModel("Honda")
+                .setEngine("X")
+                .setFuel("Petrol")
+                .setColor("Red")
+                .setNoOfDoors(4)
+                .setAirbags(true)
                 .build();
     }
 
     public void buildLambo(CarBuilder builder){
 
-        builder.id(2)
-                .brand("Lambo")
-                .model("A")
-                .engine("Super")
-                .fuel("diesel")
-                .color("Green")
-                .noOfDoors(2)
+        builder.setId(2)
+                .setBrand("Lambo")
+                .setModel("A")
+                .setEngine("Super")
+                .setFuel("diesel")
+                .setColor("Green")
+                .setNoOfDoors(2)
                 .build();
     }
+
+
 }
