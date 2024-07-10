@@ -36,8 +36,8 @@ public class SingletonClient {
             public void run() {
                 Logger log2= Logger.getLoggerInstance();
                 log2.log("Msg from user 2");
-                System.out.println("InstanceNo of log1 is: " + log2.toString());
-                System.out.println("InstanceNo of log1 is: " + log2.hashCode());
+                System.out.println("InstanceNo of log2 is: " + log2.toString());
+                System.out.println("InstanceNo of log2 is: " + log2.hashCode());
             }
         });
 
