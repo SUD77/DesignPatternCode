@@ -1,5 +1,9 @@
 package Behavioural.StrategyDesignPattern.PaymentExample;
 
+import Behavioural.StrategyDesignPattern.PaymentExample.StrategyImpl.BitcoinPayment;
+import Behavioural.StrategyDesignPattern.PaymentExample.StrategyImpl.CreditCardPayment;
+import Behavioural.StrategyDesignPattern.PaymentExample.StrategyImpl.PayPalPayment;
+
 // Step 4: Example usage
 public class PaymentClient {
 

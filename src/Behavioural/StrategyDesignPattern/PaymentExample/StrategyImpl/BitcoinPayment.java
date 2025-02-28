@@ -1,7 +1,9 @@
-package Behavioural.StrategyDesignPattern.PaymentExample;
+package Behavioural.StrategyDesignPattern.PaymentExample.StrategyImpl;
+
+import Behavioural.StrategyDesignPattern.PaymentExample.PaymentStrategy;
 
 // Step 2: Implement concrete strategy classes
-public class BitcoinPayment implements PaymentStrategy{
+public class BitcoinPayment implements PaymentStrategy {
 
     private String bitcoinAddress;
 

@@ -1,6 +1,6 @@
 package Behavioural.StrategyDesignPattern.PaymentExample;
 
-// Step 3: Create a context class that uses the strategy
+// Step 3: Create a context class that uses the strategy. Here, shoppingCart is the context class
 public class ShoppingCart {
 
     private PaymentStrategy paymentStrategy;
