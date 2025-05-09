@@ -1,0 +1,19 @@
+- Note : VehicleExample is taken from shrayans coding-concept LLD playlist.
+
+Here, in WithoutStartegyPattern -
+
+- Vehicle class has drive capability function.
+- Different type of Vehicles implement the parent vehicle.
+- Either they can implement the drive capability given by Vehicle class or implement their own.
+- Suppose, two child class (offRoad and Sports ) want to implement, Sports driving capability,
+- Now, both will write their own implementation.
+- Duplicate code is written and that's bad.
+- Implementing Strategy Design pattern can resolve it.
+
+
+Now, WithStartegy Design Pattern
+
+- We have startegy folder, where we have implemented different startegies.
+- If we want we can add later.
+- In vehicle class, constructor is abstract. Because of this Child classes can pass their own strategies as per their
+convenience
