@@ -1,0 +1,33 @@
+#Note
+
+- Adding this example to show one complex problem where subject interface is implemented by many concrete subjects
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+# Smart Home System
+
+You're teaching a class about building a Smart Home System.
+There are different device types (Subjects):
+- Thermostat – publishes temperature.
+- SecurityCamera – publishes motion detection.
+- DoorSensor – publishes door open/close events.
+
+Then there are Apps or Modules (Observers):
+- MobileApp – wants updates from all devices.
+- SecuritySystem – only cares about motion and door.
+- EnergySaverModule – only listens to the thermostat.
+
+Each subject is a separate class (not subclassed from one shared concrete class).
+
+
+------------------------------------------------------------------------------------------------------------------
+
+# Design Goal
+
+- Different Subject classes (not instances of the same class).
+- Each Subject has its own logic and data.
+- Observers implement a common interface, but behavior varies.
+- Clear abstraction, good for class discussions and extension.
