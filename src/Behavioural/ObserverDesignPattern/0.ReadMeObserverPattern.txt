@@ -1,0 +1,18 @@
+#Notes
+- Subject can be also called as Observable (in some video or examples)
+
+____________________________________________________________________________________________________
+
+# Update : 11th May, 2025
+
+- While revising Observer Pattern, realized previous examples dont have much abstraction. So added two new example
+i.e
+1. NewsExample
+2. MixedSubjectExample
+
+Also, previous examples i.e
+1. BasicExample
+2. NotificationExample
+3. PracticeWithShivangi
+
+can be taken as reference as to simply understand.
