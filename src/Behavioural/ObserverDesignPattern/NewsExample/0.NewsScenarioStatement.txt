@@ -1,0 +1,23 @@
+Imagine you run a platform like a News Aggregator (e.g., Flipboard or Google News).
+There are multiple news channels (Subjects):
+- CNN
+- ESPN
+- TechCrunch
+
+There are also multiple subscribers (Observers):
+- Alice subscribes to CNN and ESPN.
+- Bob subscribes to TechCrunch.
+- Charlie subscribes to all three.
+
+When a news channel publishes a new article, only its own subscribers are notified.
+This is a classic example of multiple Subjects and multiple Observers.
+
+__________________________________________________________________________________
+
+# Design Overview
+
+We want:
+- A common Subject interface for channels.
+- A common Observer interface for subscribers.
+- Clean separation of responsibilities.
+- Support for multiple subjects and multiple observers.
