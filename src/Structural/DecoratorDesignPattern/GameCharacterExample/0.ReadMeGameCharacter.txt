@@ -1,0 +1,22 @@
+# Problem Statement: Customize Your Game Character! (A Fun RPG Example)
+Scenario:
+You’re designing a mini RPG (Role-Playing Game) where players start with a basic character, and can equip items like:
+- Armor
+- Magic Cloak
+- Ring of Invisibility
+- Power Sword
+- Jetpack (hey, why not?)
+
+Each item enhances the character’s powers (adds defense, attack, stealth, speed, etc.).
+And you should be able to add/remove equipment dynamically
+ — no subclassing like WizardWithSwordAndCloakAndInvisibilityRing.java
+
+ -------------------------------------------------------------------------------------------------------------------
+
+
+# Problem Statement for Class
+
+"Design a system where a basic game character can be decorated with different equipment.
+Each piece of equipment adds new abilities or stats (attack, defense, speed, stealth, etc.).
+The player can mix and match equipment at runtime, and every time we ask the character to describe(),
+it should print their updated capabilities."
