@@ -1,0 +1,8 @@
+# Imagine you order a coffee:
+- You start with a plain coffee.
+- Then you add milk.
+- Then sugar.
+- Then maybe whipped cream (because you’re feeling fancy).
+
+Each addition wraps the original coffee and adds more functionality (flavor, cost, calories 😅).
+You didn’t subclass CoffeeWithMilk, CoffeeWithSugar, CoffeeWithCream, etc. You just decorated the base coffee with layers.
