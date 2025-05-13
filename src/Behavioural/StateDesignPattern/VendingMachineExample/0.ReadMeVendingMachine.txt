@@ -1,0 +1,7 @@
+# Vending Machine
+Let's say we’re simulating a Vending Machine. It has different states:
+- NoCoinState
+- HasCoinState
+- DispensingState
+
+Depending on the state, it will behave differently.
