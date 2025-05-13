@@ -1,0 +1,7 @@
+# Authentication Middleware Chain
+Imagine a web app login system. You want:
+- Basic email format check
+- Password length validation
+- Admin privilege check
+
+Each of these can be a separate handler in the chain.
