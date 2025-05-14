@@ -1,8 +1,9 @@
-package Behavioural.ChainOfResponsibilityDesignPattern.AutheticationMiddlewareExample.Handler;
+package Behavioural.ChainOfResponsibilityDesignPattern.AutheticationMiddlewareExample;
 
 import Behavioural.ChainOfResponsibilityDesignPattern.AutheticationMiddlewareExample.Handler.ConcreteHandler.AdminCheckHandler;
 import Behavioural.ChainOfResponsibilityDesignPattern.AutheticationMiddlewareExample.Handler.ConcreteHandler.EmailFormatHandler;
 import Behavioural.ChainOfResponsibilityDesignPattern.AutheticationMiddlewareExample.Handler.ConcreteHandler.PasswordLengthHandler;
+import Behavioural.ChainOfResponsibilityDesignPattern.AutheticationMiddlewareExample.Handler.Handler;
 
 public class AuthenticationClient {
     public static void main(String[] args) {
