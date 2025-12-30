@@ -18,18 +18,12 @@ public class Logger {
 
     static Logger getLoggerInstance(){
 
-
-        /*
-        *
-        *
-        * */
         if(uniqueInstance==null){    //Check for an instance and if there isn’t one, enter a synchronized block
 
+            synchronized (Logger.class){  //Note we only synchronize  the first time through
 
-            synchronized (Logger.class){  //Note we only synchronize   the first time through
-
-                if(uniqueInstance==null){
-                    uniqueInstance=new Logger();    //Once in the block, check again and if it’s still null, create an instance
+                if(uniqueInstance==null){   //Once in the block, check again and if it’s still null, create an instance
+                    uniqueInstance=new Logger();
 
                 }
             }

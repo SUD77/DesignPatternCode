@@ -27,8 +27,8 @@ public class Logger {
 
 
     /*Why will this function needs to be static
-     * 1. Because to call a funtion of a class, we need objects, but now
-     * we cant create objects. So to call a funtion it needs to be static. So that
+     * 1. Because to call a function of a class, we need objects, but now
+     * we cant create objects. So to call a function it needs to be static. So that
      * we can directly call it with clas name.
      *
      * */
